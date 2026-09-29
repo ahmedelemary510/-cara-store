@@ -1,0 +1,66 @@
+
+body {
+
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-container {
+  background: #ffffff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.441);
+}
+
+.register-container h2 {
+  text-align: center;
+  color: #ff416c;
+  margin-bottom: 20px;
+  font-size: xx-large;
+}
+
+.register-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  outline: none;
+
+}
+
+.register-container input::placeholder {
+  color: #606060;
+}
+
+.register-container button {
+  width: 100%;
+  padding: 12px;
+  background: #ff416c;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.register-container button:hover {
+background: #d4371c;
+}
+
+.login-link {
+  margin-top: 15px;
+  text-align: center;
+  color: #aaa;
+}
+
+.login-link a {
+  color: #2b7cff;
+  text-decoration: none;
+    font-weight: bold;
+}
