@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حسابي - Cara</title>
+    <link rel="icon" type="image/x-icon" href="./img/icon1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/auth.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index-Arabic.html">الرئيسية</a></li>
+                <li><a href="shop-Arabic.html">المتجر</a></li>
+                <li><a href="blog-Arabic.html">المدونة</a></li>
+                <li><a href="about-Arabic.html">من نحن</a></li>
+                <li><a href="contact-Arabic.html">اتصل بنا</a></li>
+                <li><a class="active" href="auth-Arabic.html">حسابي</a></li>
+                <li id="langToggleLi"><a href="#" id="langToggle">عربي|🌐|En</a></li>
+                <li><a href="favorites-Arabic.html"><i class='bx bx-heart' ></i></a></li>
+                    <li id="lg-bag"><a href="cart-Arabic.html"><i class='bx bx-shopping-bag'></i></a></li>
+                <a href="#" id="close"><i class='bx bx-x'></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="favorites-Arabic.html"><i class='bx bx-heart' ></i></a>
+                <a href="cart-Arabic.html"><i class='bx bx-shopping-bag'></i></a>
+            <i id="bar" class='bx bx-menu'></i>
+        </div>
+    </section>
+
+    <div class="auth-wrapper">
+        <div class="auth-container" id="authContainer">
+
+            <div class="form-box login-box" id="loginBox">
+                <h2>تسجيل الدخول</h2>
+                <form id="loginForm">
+                    <div class="input-group">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="loginEmail" placeholder="البريد الإلكتروني" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="loginPassword" placeholder="كلمة المرور" required>
+                    </div>
+                    <button type="submit" class="auth-btn">تسجيل الدخول</button>
+                    <p class="switch-text">ليس لديك حساب؟ <a href="#" id="showRegister">إنشاء حساب</a></p>
+                </form>
+            </div>
+
+            <div class="form-box register-box hidden" id="registerBox">
+                <h2>إنشاء حساب</h2>
+                <form id="registerForm">
+                    <div class="input-group">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="regName" placeholder="اسم المستخدم" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="regEmail" placeholder="البريد الإلكتروني" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="regPassword" placeholder="كلمة المرور" required>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="terms" required>
+                        <label for="terms">أوافق على الشروط والأحكام</label>
+                    </div>
+                    <button type="submit" class="auth-btn">إنشاء حساب</button>
+                    <p class="switch-text">لديك حساب بالفعل؟ <a href="#" id="showLogin">تسجيل الدخول</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
+
+
+
+

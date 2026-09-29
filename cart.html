@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cara</title>
+        <link rel="icon" type="image/x-icon" href="/img/icon1.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/payment.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="auth.html">Account</a></li>
+                    <li id="langToggleLi"><a href="#" id="langToggle">عربي|🌐|En</a></li>
+                    <li><a href="favorites.html"><i class='bx bx-heart' ></i></a></li>
+                    <li id="lg-bag"><a class="active" href="cart.html"><i class='bx bx-shopping-bag' ></i></a></li>
+                    <a href="#" id="close"><i class='bx bx-x'></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <li><a href="favorites.html"><i class='bx bx-heart' ></i></a></li>
+                <a href="cart.html"><i class='bx bx-shopping-bag' ></i></a>
+                <i id="bar" class='bx bx-menu'></i>
+            </div>
+        </section>
+
+        <section id="page-header" class="about-header">
+            <h2>#Treat_Yourself</h2>
+            <p>Confirm Your Order, Great things are coming to you</p>
+        </section>
+
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td><i class='bx bx-trash' id='clear-cart' style='cursor: pointer; font-size: 20px;' title='Clear All Items'></i></td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody id="cart-body">
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+               
+            </div>
+
+            <div id="subtotal">
+                <h3>Cart Total</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td id="cart-subtotal">EGP 0</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>399</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong id="cart-total">EGP 0</strong></td>
+                    </tr>
+                </table>
+                <button class="normal" id="checkout-btn">Proceed to checkout</button>
+            </div>
+        </section>
+
+           <section id="newsletter" class="section-p1 section-m1" style="position: relative; overflow: hidden;">
+        <img src="img/logo.png" alt="Cara Logo" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 80px; z-index: 10; filter: brightness(0) invert(1);">
+        <div class="newstext" style="visibility: hidden;">
+            <h4>Sign Up For Newsletters</h4>
+        </div>
+        <div class="form" style="visibility: hidden;">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="./img/logo.png" alt="">
+            <a href="about.html">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="auth.html">Sign In</a>
+            <a href="cart.html">View Cart</a>
+            <a href="cart.html">Track My Order</a>
+            <a href="contact.html">Help</a>
+        </div>
+
+        <div class="col install">
+            <a href="about.html#about-app" style="text-decoration: none; color: inherit;"><h4>Install App</h4></a>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <a href="about.html#about-app"><img src="./img/pay/app.jpg" alt=""></a>
+                <a href="about.html#about-app"><img src="./img/pay/play.jpg" alt=""></a>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <div class="payment-trigger" style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                    <img src="./img/pay/pay.png" alt="">
+                    <img src="./img/pay/vodafone-cash.png" alt="" style="width: 50px; vertical-align: middle;">
+                </div>
+        </div>
+
+        <div class="copyright">
+            <p>2026 Cara Shopping Website. All rights reserved</p>
+        </div>
+    </footer>
+
+    <div class="payment-modal-overlay" id="paymentModal">
+        <div class="payment-modal-container">
+            <i class='bx bx-x payment-modal-close' id="closePaymentModal"></i>
+            
+            <div id="dynamicCardWrapper" style="display: none;">
+                <div class="credit-card-visual" id="creditCardVisual">
+                    <div class="card-front">
+                        <div class="card-logo" id="cardLogoVisual"><i class='bx bxl-visa'></i></div>
+                        <div class="card-chip"></div>
+                        <div class="card-number-display" id="cardNumberDisplay">#### #### #### ####</div>
+                        <div class="card-details-display">
+                            <div class="card-name-display">
+                                <span class="card-label">Card Holder</span>
+                                <span id="cardNameDisplay">FULL NAME</span>
+                            </div>
+                            <div class="card-expiry-display">
+                                <span class="card-label">Expires</span>
+                                <span id="cardExpiryDisplay">MM/YY</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <div class="card-stripe"></div>
+                        <div class="card-cvv-box">
+                            <span class="card-label" style="text-align: right; display: block; width: 100%; padding-right: 5px; color: black;">CVV</span>
+                            <div class="cvv-display" id="cardCvvDisplay"></div>
+                        </div>
+                        <div class="card-logo-back" id="cardLogoVisualBack"><i class='bx bxl-visa'></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Select Payment Method</h2>
+            <div class="payment-methods">
+                <div class="payment-option" data-method="Visa">
+                    <i class='bx bxl-visa'></i>
+                    <span>Visa Card</span>
+                </div>
+                <div class="payment-option" data-method="MasterCard">
+                    <i class='bx bxl-mastercard'></i>
+                    <span>MasterCard</span>
+                </div>
+                <div class="payment-option" data-method="Vodafone Cash">
+                    <i class='bx bx-mobile-alt'></i>
+                    <span>Vodafone Cash</span>
+                </div>
+            </div>
+
+            <div id="cardDetailsForm" class="payment-details-form">
+                <div class="input-group">
+                    <label>Card Number</label>
+                    <div class="card-number-wrapper">
+                        <input type="text" id="cardNumber" placeholder="0000 0000 0000 0000" maxlength="19">
+                        <i class='bx bxs-credit-card' id="cardIcon"></i>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Cardholder Name</label>
+                    <input type="text" id="cardName" placeholder="John Doe">
+                </div>
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label>Expiry Date</label>
+                        <input type="text" id="cardExpiry" placeholder="MM/YY" maxlength="5">
+                    </div>
+                    <div class="input-group">
+                        <label>CVV</label>
+                        <input type="text" id="cardCVV" placeholder="123" maxlength="3">
+                    </div>
+                </div>
+            </div>
+
+            <div id="mobileWalletForm" class="payment-details-form">
+                <div class="input-group">
+                    <label>Vodafone Cash Number</label>
+                    <input type="text" id="mobileNumber" placeholder="010 0000 0000" maxlength="11">
+                </div>
+            </div>
+
+            <button class="confirm-payment-btn" id="confirmPaymentBtn" disabled style="margin-top: 25px;">Complete Payment</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
+
+
