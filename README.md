@@ -26,44 +26,53 @@ This is a responsive E-commerce website using HTML, CSS, and JavaScript. The web
 
 ## How it looks 📷
 
-<p align="center">
-    <img src="img/Images/1.jpg" alt="Screenshot 1" width="100%">
-</p>
+<div align="center">
+    <img src="/img/Images/1.jpg">
+</div>
 
 <br>
 <br>
 
-<p align="center">
-    <img src="img/Images/2.jpg" alt="Screenshot 2" width="100%">
-</p>
-
+<div align="center">
+    <img src="/img/Images/2.jpg">
+</div>
 <br>
 <br>
 
-<p align="center">
-    <img src="img/Images/4.jpg" alt="Screenshot 4" width="100%">
-</p>
+<div align="center">
+    <img src="/img/Images/3.jpg">
+</div>
+<br>
+
+<br>
+<br>
+<div align="center">
+    <img src="/img/Images/4.jpg">
+</div>
  
 <br>
 <br>
-
-<p align="center">
-    <img src="img/Images/6.jpg" alt="Screenshot 6" width="100%">
-</p>
+<div align="center">
+    <img src="/img/Images/5.jpg">
+</div>
  
 <br>
 <br>
-
-<p align="center">
-    <img src="img/Images/7.jpg" alt="Screenshot 7" width="100%">
-</p>
+<div align="center">
+    <img src="/img/Images/6.jpg">
+</div>
  
 <br>
 <br>
-
-<p align="center">
-    <img src="img/Images/8.jpg" alt="Screenshot 8" width="100%">
-</p>
+<div align="center">
+    <img src="/img/Images/7.jpg">
+</div>
+ 
+<br>
+<br>
+<div align="center">
+    <img src="/img/Images/8.jpg">
+</div>
  
 <br>
 <br>
@@ -72,5 +81,5 @@ This is a responsive E-commerce website using HTML, CSS, and JavaScript. The web
 <h5 align="center">Connect with me!</h5>
 
   <p align="center">
-    <a href="https://www.linkedin.com/in/ahmedelemary510" target="_blank">LinkedIn</a>
+    <a href="ahmedelemary510" target="_blank">LinkedIn</a>
   </p>
