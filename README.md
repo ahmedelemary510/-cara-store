@@ -27,51 +27,38 @@ This is a responsive E-commerce website using HTML, CSS, and JavaScript. The web
 ## How it looks 📷
 
 <div align="center">
-    <img src="/img/Images/1.jpg">
+    <img src="./img/Images/1.jpg" alt="Screenshot 1">
 </div>
 
 <br>
 <br>
 
 <div align="center">
-    <img src="/img/Images/2.jpg">
+    <img src="./img/Images/2.jpg" alt="Screenshot 2">
 </div>
 <br>
 <br>
 
 <div align="center">
-    <img src="/img/Images/3.jpg">
-</div>
-<br>
-
-<br>
-<br>
-<div align="center">
-    <img src="/img/Images/4.jpg">
+    <img src="./img/Images/4.jpg" alt="Screenshot 4">
 </div>
  
 <br>
 <br>
 <div align="center">
-    <img src="/img/Images/5.jpg">
+    <img src="./img/Images/6.jpg" alt="Screenshot 6">
 </div>
  
 <br>
 <br>
 <div align="center">
-    <img src="/img/Images/6.jpg">
+    <img src="./img/Images/7.jpg" alt="Screenshot 7">
 </div>
  
 <br>
 <br>
 <div align="center">
-    <img src="/img/Images/7.jpg">
-</div>
- 
-<br>
-<br>
-<div align="center">
-    <img src="/img/Images/8.jpg">
+    <img src="./img/Images/8.jpg" alt="Screenshot 8">
 </div>
  
 <br>
@@ -81,5 +68,5 @@ This is a responsive E-commerce website using HTML, CSS, and JavaScript. The web
 <h5 align="center">Connect with me!</h5>
 
   <p align="center">
-    <a href="ahmedelemary510@gmail.com" target="_blank">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/ahmedelemary510" target="_blank">LinkedIn</a>
   </p>
