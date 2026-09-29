@@ -8,10 +8,10 @@
  
 <p align="center">
     <a href=" " target="_blank">Visit Website</a>
-    ·
+    <!-- ·
     <a href=" " target="_blank">Report Bug</a>
     ·
-    <a href=" " target="_blank">Request Feature</a>
+    <a href=" " target="_blank">Request Feature</a> -->
 </p>  
 
 ## About this project 🚀
@@ -26,40 +26,44 @@ This is a responsive E-commerce website using HTML, CSS, and JavaScript. The web
 
 ## How it looks 📷
 
-<div align="center">
-    <img src="./img/Images/1.jpg" alt="Screenshot 1">
-</div>
+<p align="center">
+    <img src="img/Images/1.jpg" alt="Screenshot 1" width="100%">
+</p>
 
 <br>
 <br>
 
-<div align="center">
-    <img src="./img/Images/2.jpg" alt="Screenshot 2">
-</div>
+<p align="center">
+    <img src="img/Images/2.jpg" alt="Screenshot 2" width="100%">
+</p>
+
 <br>
 <br>
 
-<div align="center">
-    <img src="./img/Images/4.jpg" alt="Screenshot 4">
-</div>
+<p align="center">
+    <img src="img/Images/4.jpg" alt="Screenshot 4" width="100%">
+</p>
  
 <br>
 <br>
-<div align="center">
-    <img src="./img/Images/6.jpg" alt="Screenshot 6">
-</div>
+
+<p align="center">
+    <img src="img/Images/6.jpg" alt="Screenshot 6" width="100%">
+</p>
  
 <br>
 <br>
-<div align="center">
-    <img src="./img/Images/7.jpg" alt="Screenshot 7">
-</div>
+
+<p align="center">
+    <img src="img/Images/7.jpg" alt="Screenshot 7" width="100%">
+</p>
  
 <br>
 <br>
-<div align="center">
-    <img src="./img/Images/8.jpg" alt="Screenshot 8">
-</div>
+
+<p align="center">
+    <img src="img/Images/8.jpg" alt="Screenshot 8" width="100%">
+</p>
  
 <br>
 <br>
